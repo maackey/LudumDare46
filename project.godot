@@ -1,0 +1,30 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Reference",
+"class": "util",
+"language": "GDScript",
+"path": "res://util.gd"
+} ]
+_global_script_class_icons={
+"util": ""
+}
+
+[application]
+
+config/name="Monster"
+run/main_scene="res://entities/levels/level1/Level1.tscn"
+config/icon="res://icon.png"
+
+[rendering]
+
+quality/depth/hdr=false
+environment/default_environment="res://default_env.tres"

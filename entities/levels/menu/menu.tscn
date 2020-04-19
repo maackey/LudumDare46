@@ -1,0 +1,13 @@
+[gd_scene format=2]
+
+[node name="menu" type="Node2D"]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_right = 1022.0
+margin_bottom = 597.0
+text = "It was a dark and stormy Saturday morning, when Dr. Moriarty arrived at the Tower of Terror. A recent plague in the realm had stretched his resources thin, but he could recover all he spent and more, by curing a single patient. 
+
+It wasn't his usual clientele, but he was in desperate need of money..."
+__meta__ = {
+"_edit_use_anchors_": false
+}
